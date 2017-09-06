@@ -1,0 +1,7 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://www.idaoben.com/schema/logging.xsd" location="$USER_HOME$/.IntelliJIdea2016.3/system/extResources/f37b746f_logging.xsd" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans.xsd" location="$USER_HOME$/.IntelliJIdea2016.3/system/extResources/334543e7_spring-beans.xsd" />
+    <resource url="http://www.springframework.org/schema/tool/spring-tool.xsd" location="$USER_HOME$/.IntelliJIdea2016.3/system/extResources/7f2f82b9_spring-tool.xsd" />
+  </component>
+</application>

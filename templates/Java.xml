@@ -1,0 +1,33 @@
+<templateSet group="Java">
+  <template name="notnull" value="if ($EXPR$ == null) {&#10;    throw new $EX$();&#10;}&#10;$CURSOR$" description="if (xxx == null) { throw new Exception(); }" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EX" expression="" defaultValue="RuntimeException" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="apidoc" value="/**&#10; * @api {$API_METHOD$} $API_URL$ $API_DESC$&#10; * @apiGroup $API_GROUP$&#10; * @apiName $API_NAME$&#10; * @apiDescription $API_DESC$&#10; * @author $AUTHOR$&#10; * @apiVersion $API_VERSION$&#10; * @apiUse CommonParams&#10; * @apiExample {JSON} 请求报文例子&#10; * {&#10; *     &quot;appKey&quot;:&quot;appKey&quot;,&#10; *     &quot;timestamp&quot;:&quot;2017-04-20 15:45:00&quot;,&#10; *     &quot;sign&quot;:&quot;sign&quot;,&#10; *     &quot;data&quot;:$PAYLOAD_DESC$&#10; * }&#10; * @apiSuccessExample {JSON} 成功例子&#10; * {&quot;code&quot;:&quot;0&quot;,&quot;message&quot;:&quot;成功&quot;}&#10; * @apiErrorExample JSON 出错例子&#10; * {&quot;code&quot;:&quot;1000&quot;,&quot;message&quot;:&quot;错误信息&quot;}&#10; */" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="API_METHOD" expression="&quot;POST&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="API_URL" expression="&quot;/api/url&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="API_DESC" expression="&quot;接口描述&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="API_GROUP" expression="&quot;接口分组“" defaultValue="" alwaysStopAt="true" />
+    <variable name="API_NAME" expression="&quot;接口名称&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHOR" expression="user()" defaultValue="Chen, Zhuhui" alwaysStopAt="false" />
+    <variable name="API_VERSION" expression="&quot;1.0.0&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="PAYLOAD_DESC" expression="&quot;{}&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="apidoctype" value="/**&#10; * @apiDefine $TYPE$ $TYPE_DESC$&#10; * @apiParam ($TYPE$) $PARAM$&#10; * @author $AUTHOR$&#10; */" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="&quot;TypeName&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_DESC" expression="&quot;载荷/类型描述&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="&quot;{Object} param 参数描述&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHOR" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
