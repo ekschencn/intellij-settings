@@ -1,7 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="Dense" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile" type="Groovy" />
+      <mapping ext="jenkinsfile" type="Groovy" />
+      <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
+      <mapping ext="dockerfile" type="PLAIN_TEXT" />
+      <mapping ext="serialization" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
