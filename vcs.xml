@@ -3,19 +3,7 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="http://192.168.42.55:10240/git/assurance" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://219.143.215.115:8185/gitblit/r/sunEee/sunEee-ynwl.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
           <option name="url" value="https://github.com/xcarnd/CarND-Path-Planning-Project.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/xcarnd/CarND-Advanced-Lane-Lines.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
