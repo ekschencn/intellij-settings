@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/xcarnd/CarND-Path-Planning-Project.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.42.55:4096/sara/zfish.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/t3" />
+    <option name="cloneParentDir" value="D:\X\Documents\SourceCodes" />
   </component>
 </application>
